@@ -140,3 +140,112 @@ p {
 .cart p {
   font-size: 16px;
 }
+
+#works {
+  padding-block: 50px;
+}
+
+.works {
+  width: 100%;
+  max-width: 1280px;
+  display: flex;
+  align-items: center;
+  margin-inline: auto;
+  padding-inline: 80px;
+}
+
+.works-top {
+  padding: 10px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.work {
+  width: 100%;
+  max-width: 970px;
+  display: flex;
+  align-items: flex-start;
+  margin: 20px;
+}
+
+.work img {
+  margin-right: 20px;
+}
+
+.work-details {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.work-details h2 {
+  font-size: 26px;
+  color: #21243d;
+}
+
+.work-details p {
+  font-size: clamp(0.75rem, 0.568rem + 0.91vw, 1.25rem);
+  line-height: 27px;
+}
+
+.year {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.year button {
+  background-color: #142850;
+  color: #fff;
+  border: none;
+  border-radius: 13px;
+  padding: 2px 10px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.year p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #8695a4;
+}
+
+#social {
+  padding-block: 50px;
+}
+
+.image {
+  padding-block: 90px;
+  display: flex;
+  justify-content: center;
+  gap: 44px;
+}
+
+.link {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+#logo {
+  padding-top: 60px;
+}
+
+.logo {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo-content {
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+}
+
+.logo p {
+  font-size: 16px;
+}
