@@ -1,0 +1,23 @@
+@media (max-width: 605px) {
+  .header {
+    display: none;
+  }
+
+  .burger-menu {
+    display: flex;
+  }
+  #main {
+    padding-block: 30px;
+  }
+  .main {
+    flex-direction: column-reverse;
+  }
+  .main-content {
+    text-align: center;
+    align-items: center;
+    gap: 15px;
+  }
+  .post {
+    flex-direction: column-reverse;
+  }
+}
